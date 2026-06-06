@@ -1,0 +1,3 @@
+# Place your proxy URLs here, one per line.
+# Example HTTP: http://user:pass@ip:port
+# Example SOCKS5: socks5://user:pass@ip:port

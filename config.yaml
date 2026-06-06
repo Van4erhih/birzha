@@ -1,0 +1,25 @@
+
+# General Configuration
+APP_NAME: "CryptoFarmingOrchestrator"
+LOG_LEVEL: "INFO"
+
+# Web3 Configuration
+WEB3:
+  DEFAULT_RPC_URL: "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+  CHAIN_ID: 1 # Ethereum Mainnet
+  GAS_LIMIT: 2000000 # Default gas limit for transactions
+  GAS_PRICE_GWEI: 20 # Default gas price in Gwei
+
+# Playwright Configuration
+PLAYWRIGHT:
+  HEADLESS: true
+  SLOW_MO: 50 # milliseconds
+  TIMEOUT: 30000 # milliseconds
+
+# Task Orchestrator Configuration
+ORCHESTRATOR:
+  MAX_PARALLEL_TASKS: 5
+  MIN_DELAY_SECONDS: 5
+  MAX_DELAY_SECONDS: 30
+  RETRY_ATTEMPTS: 3
+  RETRY_DELAY_SECONDS: 10

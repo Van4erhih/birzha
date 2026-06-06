@@ -1,0 +1,6 @@
+web3==6.16.0
+playwright==1.44.0
+PyYAML==6.0.1
+dotenv==1.0.0
+loguru==0.7.2
+cryptography==42.0.0
